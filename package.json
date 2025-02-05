@@ -1,0 +1,66 @@
+{
+  "name": "photographer-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@cypress/react": "^9.0.0",
+    "cra-template": "1.2.0",
+    "firebase": "^11.2.0",
+    "framer-motion": "^12.0.8",
+    "history": "^5.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.1.5",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^4.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-react": "^7.26.3",
+    "@eslint/js": "^9.19.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "cypress": "^14.0.1",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "^15.14.0",
+    "husky": "^9.1.7",
+    "jest": "^27.5.1",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.4.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
+  }
+}
