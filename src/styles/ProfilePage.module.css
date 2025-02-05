@@ -1,0 +1,106 @@
+.profileContainer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: #f5f5f5;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .aboutSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 3rem;
+    align-items: center;
+  }
+  
+  .image img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .info {
+    flex: 1;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: #555;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .servicesSection {
+    margin-top: 5rem;
+    text-align: center;
+  }
+  
+  .servicesSection h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .service {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    min-width: 300px;
+    text-align: center;
+  }
+  
+  .service h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .service p {
+    color: #555;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .portfolioSection {
+    margin-top: 5rem;
+    text-align: center;
+  }
+  
+  .portfolioSection h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .portfolioImages {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .portfolioImages img {
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
